@@ -3,7 +3,7 @@
 
 Binus EzyFood  adalah aplikasi Android untuk memesan makanan dengan menerapkan Location Based Service menggunakan Google Map Services dan menyimpan database secara local menggunakan SQLite. 
 
-Aplikasi ini dapat di-install pada Android Device menggunakan Signed APK yang sudah di-published di akun Github saya: 
+Aplikasi ini dapat di-install pada Android Device menggunakan Signed APK yang sudah di-published di link: https://github.com/yulianamuksin/Final-Project-Assignment
 
 Untuk mengakses aplikasi Binus EzyFood, Langkah-langkah yang harus dilakukan adalah: 
 1.	Download project dan Signed APK yang sudah di-published pada link akun Github diatas. 
