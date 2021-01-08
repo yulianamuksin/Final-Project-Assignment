@@ -1,0 +1,32 @@
+[
+  {
+    "name": "EzyFoody Jakarta",
+    "address": "Jl. Thamrin 3, Jakarta",
+    "lat": -6.17808123,
+    "lang": 106.791276
+  },
+  {
+    "name": "EzyFoody Bogor",
+    "address": "Bogor Park 1, Bogor",
+    "lat": -6.597922,
+    "lang": 106.8060
+  },
+  {
+    "name": "EzyFoody Depok",
+    "address": "Depok City 10, Kota Depok",
+    "lat": -6.3722622,
+    "lang": 106.831729
+  },
+  {
+    "name": "EzyFoody Tangerang",
+    "address": "Jl. Sutera 2, Tangerang",
+    "lat": -6.223386,
+    "lang": 106.6606
+  },
+  {
+    "name": "EzyFoody Bekasi",
+    "address": "Bekasi Road 8, Kota Bekasi",
+    "lat": -6.24108423,
+    "lang": 106.968113
+  }
+]

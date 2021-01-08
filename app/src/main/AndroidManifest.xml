@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.uts.yulianamuksin2201800091">
+    
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Binus EzyFoody"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/map_key" />
+
+        <meta-data android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity android:name="com.uts.yulianamuksin2201800091.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.uts.yulianamuksin2201800091.MenuDetailActivity"
+            android:parentActivityName="com.uts.yulianamuksin2201800091.MainActivity">
+        </activity>
+        <activity
+            android:label="Binus EzyFoody - Drinks"
+            android:name="com.uts.yulianamuksin2201800091.DetailDrinks"
+            android:parentActivityName="com.uts.yulianamuksin2201800091.MainActivity">
+        </activity>
+        <activity
+            android:label="Binus EzyFoody - Foods"
+            android:name="com.uts.yulianamuksin2201800091.DetailFoods"
+            android:parentActivityName="com.uts.yulianamuksin2201800091.MainActivity">
+        </activity>
+        <activity
+            android:label="Binus EzyFoody - Snacks"
+            android:name="com.uts.yulianamuksin2201800091.DetailSnacks"
+            android:parentActivityName="com.uts.yulianamuksin2201800091.MainActivity">
+        </activity>
+        <activity
+            android:label="Binus EzyFoody - Top Up"
+            android:name="com.uts.yulianamuksin2201800091.TopUp"
+            android:parentActivityName="com.uts.yulianamuksin2201800091.MainActivity">
+        </activity>
+        <activity
+            android:label="Binus EzyFoody - Map"
+            android:name="com.uts.yulianamuksin2201800091.Map"
+            android:parentActivityName="com.uts.yulianamuksin2201800091.MainActivity">
+        </activity>
+        <activity
+            android:label="Binus EzyFoody - Restaurant List"
+            android:name="com.uts.yulianamuksin2201800091.RestaurantList"
+            android:parentActivityName="com.uts.yulianamuksin2201800091.MainActivity">
+        </activity>
+        <activity
+            android:label="Binus EzyFoody - Order History"
+            android:name="com.uts.yulianamuksin2201800091.OrderHistory"
+            android:parentActivityName="com.uts.yulianamuksin2201800091.MainActivity">
+        </activity>
+        <activity
+            android:label="Binus EzyFoody - My Order"
+            android:name="com.uts.yulianamuksin2201800091.MyOrder"
+            android:parentActivityName="com.uts.yulianamuksin2201800091.MainActivity">
+        </activity>
+        <activity
+            android:label="Binus EzyFoody - Order Complete"
+            android:name="com.uts.yulianamuksin2201800091.Payment"
+            android:parentActivityName="com.uts.yulianamuksin2201800091.MainActivity">
+        </activity>
+        <activity
+            android:label="Binus EzyFoody - Order"
+            android:name="com.uts.yulianamuksin2201800091.ItemQuantity"
+            android:parentActivityName="com.uts.yulianamuksin2201800091.DetailDrinks">
+        </activity>
+        <activity
+            android:label="Binus EzyFoody - Input Destination"
+            android:name="com.uts.yulianamuksin2201800091.DestPicker"
+            android:parentActivityName="com.uts.yulianamuksin2201800091.MyOrder">
+        </activity>
+    </application>
+
+</manifest>

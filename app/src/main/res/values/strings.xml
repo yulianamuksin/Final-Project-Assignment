@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Binus EzyFoody</string>
+    <string name="map_key" translatable="false">AIzaSyCNpcqfdic2pYdTAxjrjF2MbrcSgj7oE58</string>
+    <string name="google_map_key">AIzaSyCNpcqfdic2pYdTAxjrjF2MbrcSgj7oE58</string>
+</resources>

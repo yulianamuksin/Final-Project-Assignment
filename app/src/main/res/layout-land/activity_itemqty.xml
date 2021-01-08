@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.uts.yulianamuksin2201800091.ItemQuantity"
+    >
+    <include
+        layout="@layout/toolbar_main"
+        android:id="@+id/toolbar"
+        />
+
+    <TextView
+        android:id="@+id/itm_text"
+        android:layout_width="236dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginStart="242dp"
+        android:layout_marginTop="49dp"
+        android:textAlignment="center"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/itm_image"
+        android:layout_width="307dp"
+        android:layout_height="197dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="206dp"
+        android:layout_marginTop="114dp"
+        android:adjustViewBounds="true" />
+
+    <EditText
+        android:id="@+id/input_quantity"
+        android:layout_width="wrap_content"
+        android:layout_height="63dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:layout_marginStart="567dp"
+        android:layout_marginLeft="567dp"
+        android:layout_marginTop="20dp"
+        android:hint="Input Quantity"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/button_addcart"
+        android:layout_width="269dp"
+        android:layout_height="59dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="238dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="0dp"
+        android:background="#5ec639"
+        android:onClick="clickAddToCart"
+        android:text="Add To Cart"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/button_myorder"
+        android:layout_width="219dp"
+        android:layout_height="59dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="0dp"
+        android:background="#C01831"
+        android:onClick="clickMyOrder"
+        android:text="My Order"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/orderMore_button"
+        android:layout_width="238dp"
+        android:layout_height="59dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginBottom="0dp"
+        android:background="#0000ff"
+        android:onClick="clickOrderMore"
+        android:text="Order More"
+        android:textColor="#ffffff" />
+
+</RelativeLayout>
