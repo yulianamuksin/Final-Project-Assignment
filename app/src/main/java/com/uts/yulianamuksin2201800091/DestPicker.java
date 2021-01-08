@@ -65,8 +65,8 @@ public class DestPicker extends AppCompatActivity {
         adrstr = adr.getText().toString();
 
         if ("".equals(adrstr) || "0".equals(adrstr)) {
-            alertDialog.setTitle("Input a Valid Road Name");
-            alertDialog.setMessage("Road name must be Valid!");
+            alertDialog.setTitle("Input a Valid Street Name");
+            alertDialog.setMessage("Street Name must be a Valid (Real) Street on Google Map!");
             alertDialog.setButton(AlertDialog.BUTTON_NEUTRAL, "OK",
                     new DialogInterface.OnClickListener() {
                         public void onClick(DialogInterface dialog, int which) {
@@ -125,7 +125,7 @@ public class DestPicker extends AppCompatActivity {
         convertAddress();
         get_json();
         AlertDialog.Builder builder = new AlertDialog.Builder(DestPicker.this);
-        builder.setTitle("Choose an animal");
+        builder.setTitle("Choose Nearest EzyFood Restaurants Near You:");
 
         final String[] allrestos = {list.get(0),list.get(1),list.get(2),list.get(3),list.get(4)};
         builder.setItems(allrestos, new DialogInterface.OnClickListener() {

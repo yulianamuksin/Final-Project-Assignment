@@ -70,7 +70,7 @@
         android:layout_marginBottom="0dp"
         android:background="#C01831"
         android:onClick="clickPayNow"
-        android:text="Pay Now"
+        android:text="Checkout"
         android:textColor="#ffffff" />
 
     <TextView

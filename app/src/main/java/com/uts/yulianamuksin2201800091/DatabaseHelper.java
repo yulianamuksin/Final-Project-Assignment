@@ -13,7 +13,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
     private static final String TAG = "DatabaseHelper";
 
     //private static final String TABLE_NAME = "orderhist_table";
-    private static final String TABLE_NAME = "orderhist4_table";
+    private static final String TABLE_NAME = "orderhist5_table";
     private static final String col2 = "menudetail";
 
     public DatabaseHelper(Context context) {
